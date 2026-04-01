@@ -1,11 +1,11 @@
 package org.example.boundedContext.gugudan;
 
+import org.example.boundedContext.global.base.Rq;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import org.example.boundedContext.global.base.Rq;
 
 import java.io.IOException;
 
