@@ -11,7 +11,10 @@
 
 <div>
     <ul>
-        <% for(Article article : articles) { %>
+        <% for(int i = articles.size() - 1; i >= 0; i--) { %>
+            <%
+                Article article = articles.get(i);
+            %>
             <li><%= article.getId()%> : <%= article.getSubject() %></li>
         <% } %>
     </ul>
